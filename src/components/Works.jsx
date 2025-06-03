@@ -129,7 +129,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+        These projects highlight my skills and experience through real-world examples. Each project includes links to the source code and live demos, showcasing my ability to solve problems, build user-friendly interfaces, and work with modern technologies. They reflect my growth as a developer and my passion for building impactful solutions.
         </p>
       </div>
 

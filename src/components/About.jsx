@@ -72,9 +72,10 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        I'm a self-motivated front-end web developer with hands-on experience in React.js, Tailwind CSS, and Vite. 
+        I focus on creating interactive, performance-optimized user interfaces. 
+        I’ve collaborated on multiple projects and continue to grow by learning new technologies and solving real-world UI problems. 
+        I believe in clean code, pixel-perfect designs, and smooth user experience.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

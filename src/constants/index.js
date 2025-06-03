@@ -93,20 +93,19 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
+  // {
+  //   name: "gsap",
+  //   icon: gsap,
+  // },
   {
     name: "framer",
     icon: framer,
   },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "figma",
     icon: figma,
@@ -139,10 +138,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
+  // {
+  //   name: "MySql",
+  //   icon: mysql,
+  // },
 
   {
     name: "git",
@@ -155,15 +154,15 @@ const technologies = [
 const experiences = [
   {
     title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    company_name: "Unicorn Digital",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jan 2025 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a MERN Stack Developer, I specialize in building and maintaining dynamic web applications using MongoDB, Express.js, React.js, and Node.js",
+      "I work closely with cross-functional teams—including designers, product managers, and fellow developers—to deliver high-quality, scalable products.",
+      "My responsibilities include implementing responsive, user-friendly interfaces, ensuring seamless performance across all major browsers, and actively participating in code reviews to promote clean, efficient, and maintainable code.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -171,35 +170,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "I'm impressed with the website – clean, modern, and easy to use.The design and functionality work perfectly together.Your creative touch really stands out.A professional and well-done job!",
+    name: "Usman Maniar",
+    designation: "Ecommerce Business",
+    company: "SWRV Store",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Working with you was a fantastic experience.The site is fast, responsive, and beautifully designed.Everything functions exactly as we needed.Truly professional work from start to finish.",
+    name: "Alan Walker",
+    designation: "Block-Chain",
+    company: "Artizia",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Clean code, great design, and clear communication.You delivered a functional and elegant product.The user experience is top-notch.Definitely working with you again!",
+    name: "Abdullah",
+    designation: "NORRBOTTENS",
+    company: "ISLAMISKA CENTER",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "NIC-Clone",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "The NIC-Clone is a full-stack web application built using the MERN stack.It replicates a Norrbottens Islamic Center application portal with a clean, responsive UI.Users can fill out and submit forms, with data securely managed in MongoDB.Deployed on Netlify, it showcases seamless frontend-backend integration.",
     tags: [
       {
         name: "react",
@@ -207,66 +206,66 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "white-text-gradient",
+        color: "blue-text-gradient",
       },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "node",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
  
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://nic-clone.netlify.app/",
   },
   {
-    name: "GearXpert",
+    name: "SWRV-Ecommerce",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "SWRV is a Pakistani streetwear brand offering bold, oversized tees with unique designs.Their collections feature premium fabrics, drop-shoulder styles, and limited-edition releases.The brand blends urban fashion with quality craftsmanship for a standout street look.Shop now to enjoy 15% off and free nationwide shipping at swrv.store.",
     tags: [
+      // {
+      //   name: "react",
+      //   color: "blue-text-gradient",
+      // },
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
+        name: "shopify",
         color: "green-text-gradient",
       },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "Gsap",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://swrv.store/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Artizia-clone",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Artzia Clone is a MERN stack practice project simulating an NFT marketplace. Users can connect wallets, create and browse digital art collections.It features a clean, responsive UI with basic NFT listing and interaction. Deployed on Netlify,it demonstrates full-stack development skills.The project is inspired by real NFT platforms.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS3",
         color: "blue-text-gradient",
       },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "node",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://artziaclone.netlify.app/",
   },
 ];
 
