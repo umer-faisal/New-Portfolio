@@ -16,6 +16,7 @@ import {
   express,
   aws,
   mui,
+ 
   
   gsap,
   framer,
@@ -147,7 +148,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
 
 ];
 

@@ -30,6 +30,7 @@ import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
 
+
 export {
   logo,
   backend,
