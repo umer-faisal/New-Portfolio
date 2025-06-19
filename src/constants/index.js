@@ -170,10 +170,10 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I'm impressed with the website – clean, modern, and easy to use.The design and functionality work perfectly together.Your creative touch really stands out.A professional and well-done job!",
-    name: "Usman Maniar",
-    designation: "Ecommerce Business",
-    company: "SWRV Store",
+      "Amazing work! You turned my ideas into a sleek, responsive portfolio that fits my graphics profile perfectly. Highly recommended!",
+    name: "Abdul Rab",
+    designation: "Portfolio",
+    company: "AbdulRab",
     image: firstTestimonial,
   },
   {
@@ -222,25 +222,25 @@ const projects = [
     source_code_link: "https://nic-clone.netlify.app/",
   },
   {
-    name: "SWRV-Ecommerce",
+    name: "AbdulRab-Portfoilio",
     description:
-      "SWRV is a Pakistani streetwear brand offering bold, oversized tees with unique designs.Their collections feature premium fabrics, drop-shoulder styles, and limited-edition releases.The brand blends urban fashion with quality craftsmanship for a standout street look.Shop now to enjoy 15% off and free nationwide shipping at swrv.store.",
+      "Abdul Rab's portfolio website is a modern, responsive platform built to showcase his skills, projects, and professional background as a graphic designer. The site features a clean layout with animated transitions, project previews, and an intuitive user experience powered by HTML and Css3.",
     tags: [
-      // {
-      //   name: "react",
-      //   color: "blue-text-gradient",
-      // },
       {
-        name: "shopify",
-        color: "green-text-gradient",
+        name: "HTML",
+        color: "orange-text-gradient",
       },
-      // {
-      //   name: "Gsap",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "CSS3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "text-yellow-500",
+      },
     ],
     image: gearXpert,
-    source_code_link: "https://swrv.store/",
+    source_code_link: "https://abdulrab.netlify.app/",
   },
   {
     name: "Artizia-clone",
