@@ -16,8 +16,8 @@ import {
   express,
   aws,
   mui,
- 
   
+   
   gsap,
   framer,
   figma,
@@ -33,6 +33,13 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  // New project images
+  styleways,
+  unicorn,
+  inventory,
+  usability,
+  material,
+  education,
 } from '../assets'
 
 
@@ -196,30 +203,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "NIC-Clone",
+    name: "Unicorn Digital",
     description:
-      "The NIC-Clone is a full-stack web application built using the MERN stack.It replicates a Norrbottens Islamic Center application portal with a clean, responsive UI.Users can fill out and submit forms, with data securely managed in MongoDB.Deployed on Netlify, it showcases seamless frontend-backend integration.",
+      "A responsive Web Application built with Next.js for UnicornDigital, delivered as a sleek and modern web solution tailored to their digital agency needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Nextjs",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "node",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      }
       // {
       //   name: "mongodb",
       //   color: "green-text-gradient",
       // },
  
     ],
-    image: project2,
-    source_code_link: "https://nic-clone.netlify.app/",
+    image: unicorn, 
+    source_code_link: "https://unicorndigital1.vercel.app/",
   },
   {
     name: "AbdulRab-Portfoilio",
@@ -243,29 +250,179 @@ const projects = [
     source_code_link: "https://abdulrab.netlify.app/",
   },
   {
-    name: "Artizia-clone",
+    name: "Styleways",
     description:
-      "Artzia Clone is a MERN stack practice project simulating an NFT marketplace. Users can connect wallets, create and browse digital art collections.It features a clean, responsive UI with basic NFT listing and interaction. Deployed on Netlify,it demonstrates full-stack development skills.The project is inspired by real NFT platforms.",
+      "Styleways is a responsive web application built with React and Tailwind CSS, featuring a clean, modern design and smooth animations. It showcases a collection of products with detailed information and a user-friendly interface for easy navigation.",
     tags: [
       {
-        name: "HTML",
+        name: "React",
         color: "orange-text-gradient",
       },
       {
-        name: "CSS3",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "node",
-      //   color: "green-text-gradient",
-      // },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
       // {
       //   name: "mongodb",
       //   color: "green-text-gradient",
       // },
     ],
-    image: project3,
-    source_code_link: "https://artziaclone.netlify.app/",
+    image: styleways,
+    source_code_link: "https://style-ways.vercel.app/",
+  },
+  {
+    name: "Norrbottens Islamic Center",
+    description:
+      "The NIC-Clone is a full-stack web application built using the MERN stack.It replicates a Norrbottens Islamic Center application portal with a clean, responsive UI.Users can fill out and submit forms, with data securely managed in MongoDB.Deployed on Netlify, it showcases seamless frontend-backend integration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "express",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: project2,
+    source_code_link: "https://nic-clone.netlify.app/",
+  },
+  {
+    name: "Task Management App",
+    description:
+      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React, TypeScript, and Firebase for real-time data synchronization. Includes user roles, project boards, and progress tracking.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: unicorn,
+    source_code_link: "https://github.com/yourusername/task-manager",
+  },
+  {
+    name: "Weather Dashboard",
+    description:
+      "A modern weather application that displays current weather conditions and forecasts for multiple locations. Features include interactive maps, weather alerts, and historical data visualization. Built with React, Chart.js for data visualization, and integrates with multiple weather APIs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-500",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: inventory,
+    source_code_link: "https://github.com/yourusername/weather-dashboard",
+  },
+  {
+    name: "Social Media Clone",
+    description:
+      "A social media platform clone with features like user profiles, posts, comments, likes, and real-time messaging. Built with React, Node.js, and Socket.io for real-time communication. Includes image upload, user authentication, and responsive design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socketio",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: usability,
+    source_code_link: "https://github.com/yourusername/social-media-clone",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A modern, responsive portfolio website built with React and Three.js for 3D animations. Features include interactive 3D elements, smooth scrolling animations, project showcase, and contact forms. Deployed on Vercel with optimized performance.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: material,
+    source_code_link: "https://github.com/yourusername/portfolio-3d",
+  },
+  {
+    name: "AI Chat Application",
+    description:
+      "An AI-powered chat application that integrates with OpenAI's GPT API. Features include conversation history, multiple AI models, code syntax highlighting, and export functionality. Built with React, Node.js, and includes user authentication and conversation management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: education,
+    source_code_link: "https://github.com/yourusername/ai-chat-app",
   },
 ];
 

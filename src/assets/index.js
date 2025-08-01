@@ -12,7 +12,7 @@ import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
 import project3 from './project3.webp';
-import project2 from './proj1.webp'
+import project2 from './project2.webp'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -29,6 +29,15 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+
+
+// New project images
+import styleways from './styleways.png';
+import unicorn from './unicorn.png';
+import inventory from './inventory.png';
+import usability from './usability.png';
+import material from './material.png';
+import education from './education.png';
 
 
 export {
@@ -63,5 +72,11 @@ export {
   redux,
   tailwind,
   threejs,
-
+  // New project images
+  styleways,
+  unicorn,
+  inventory,
+  usability,
+  material,
+  education,
 };
