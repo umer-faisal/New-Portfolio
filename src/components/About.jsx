@@ -72,10 +72,8 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a self-motivated front-end web developer with hands-on experience in React.js, Tailwind CSS, and Vite. 
-        I focus on creating interactive, performance-optimized user interfaces. 
-        I’ve collaborated on multiple projects and continue to grow by learning new technologies and solving real-world UI problems. 
-        I believe in clean code, pixel-perfect designs, and smooth user experience.
+        I'm a self-motivated Frontend Web Developer with hands-on experience in React.js, Next.js, Tailwind CSS, and Vite. I specialize in building responsive, performance-optimized, and interactive user interfaces that deliver a smooth and engaging experience across devices. Over time, I’ve worked on real-world projects where I applied clean code practices, reusable components, and modern workflows with Git/GitHub, which helped me sharpen both my technical and collaborative skills.<br/>
+        I enjoy solving real-world UI problems and turning creative ideas into functional, pixel-perfect designs. Continuously learning new technologies is a big part of my journey, as I believe growth comes from experimenting, improving, and staying updated with the ever-evolving frontend ecosystem. My ultimate goal is to craft web applications that are not only visually appealing but also scalable, intuitive, and impactful.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

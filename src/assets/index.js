@@ -10,9 +10,6 @@ import gsap from './tech/gsap.png'
 import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
-import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './project2.webp'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -34,11 +31,14 @@ import thirdTestimonial from './third testimonial.webp'
 // New project images
 import styleways from './styleways.png';
 import unicorn from './unicorn.png';
-import inventory from './inventory.png';
+import servomotors from './servomotors.png';
 import usability from './usability.png';
 import material from './material.png';
-import education from './education.png';
-
+import abdulrab from './abdulrab.png';
+import newwheels from './newwheels.png';
+import artzia from './artzia.png';
+import nic from './nic.png';
+import iedu from './iedu.png';
 
 export {
   logo,
@@ -50,9 +50,6 @@ export {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
   aws,
@@ -75,8 +72,12 @@ export {
   // New project images
   styleways,
   unicorn,
-  inventory,
   usability,
   material,
-  education,
+  abdulrab,
+  newwheels,  
+  artzia,
+  nic,
+  iedu,
+  servomotors,
 };

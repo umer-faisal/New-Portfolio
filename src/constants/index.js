@@ -9,9 +9,6 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
   aws,
@@ -36,10 +33,15 @@ import {
   // New project images
   styleways,
   unicorn,
-  inventory,
   usability,
   material,
-  education,
+  abdulrab,
+  newwheels,
+  artzia,
+  nic,
+  iedu,
+  servomotors,
+
 } from '../assets'
 
 
@@ -54,6 +56,10 @@ export const navLinks = [
     id: "about",
     title: "About",
     
+  },
+  {
+    id: "experience",
+    title: "Experince",
   },
   {
     id: "work",
@@ -160,15 +166,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Front-End Developer",
     company_name: "Unicorn Digital",
     icon: tekisky,
     iconBg: "#383E56",
     date: "Jan 2025 - present",
     points: [
-      "As a MERN Stack Developer, I specialize in building and maintaining dynamic web applications using MongoDB, Express.js, React.js, and Node.js",
-      "I work closely with cross-functional teams—including designers, product managers, and fellow developers—to deliver high-quality, scalable products.",
-      "My responsibilities include implementing responsive, user-friendly interfaces, ensuring seamless performance across all major browsers, and actively participating in code reviews to promote clean, efficient, and maintainable code.",
+      "Worked on React.js and Next.js projects, focusing on building dynamic, SEO-friendly, and scalable web applications.",
+      "Implemented modern UI components using Tailwind CSS and optimized user experience with responsive, clean design.",
+      "Collaborated on Git/GitHub based workflows, applying best practices in frontend development and improving problem-solving skills through real-world projects.",
       // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -179,16 +185,16 @@ const testimonials = [
     testimonial:
       "Amazing work! You turned my ideas into a sleek, responsive portfolio that fits my graphics profile perfectly. Highly recommended!",
     name: "Abdul Rab",
-    designation: "Portfolio",
-    company: "AbdulRab",
+    designation: "portfolio",
+    company: "Graphics Designer",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "Working with you was a fantastic experience.The site is fast, responsive, and beautifully designed.Everything functions exactly as we needed.Truly professional work from start to finish.",
-    name: "Alan Walker",
-    designation: "Block-Chain",
-    company: "Artizia",
+      "Umer developed our business website, newwheels.pk, in an impressively short period. He perfectly captured our vision with a modern, clean, and highly functional design. His work is professional, detail-oriented and exceeded all our expectations. I highly recommend Umer for his expertise, efficiency and valuable insight. Thank you for delivering an outstanding platform for our online growth.",
+    name: "Muneeb Ahmed",
+    designation: "Co-founder",
+    company: "NewWheels",
     image: secondTestimonial,
   },
   {
@@ -202,6 +208,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "New Wheels",
+    description:
+      "",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      }
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
+ 
+    ],
+    image: newwheels, 
+    source_code_link: "https://newwheels.pk/",
+  },
   {
     name: "Unicorn Digital",
     description:
@@ -229,27 +261,6 @@ const projects = [
     source_code_link: "https://unicorndigital1.vercel.app/",
   },
   {
-    name: "AbdulRab-Portfoilio",
-    description:
-      "",
-    tags: [
-      {
-        name: "HTML",
-        color: "text-red-600",
-      },
-      {
-        name: "CSS3",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "text-yellow-500",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://abdulrab.netlify.app/",
-  },
-  {
     name: "Styleways",
     description:
       "",
@@ -275,6 +286,27 @@ const projects = [
     source_code_link: "https://style-ways.vercel.app/",
   },
   {
+    name: "AbdulRab-Portfoilio",
+    description:
+      "",
+    tags: [
+      {
+        name: "HTML",
+        color: "text-red-600",
+      },
+      {
+        name: "CSS3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "text-yellow-500",
+      },
+    ],
+    image: abdulrab,
+    source_code_link: "https://abdulrab.netlify.app/",
+  },
+  {
     name: "Norrbottens Islamic Center",
     description:
       "",
@@ -296,7 +328,7 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: project2,
+    image: nic,
     source_code_link: "https://nic-clone.netlify.app/",
   },
   {
@@ -314,7 +346,7 @@ const projects = [
       },
       
     ],
-    image: inventory,
+    image: servomotors,
     source_code_link: "https://servomotors.vercel.app/",
   },
   {
@@ -332,7 +364,7 @@ const projects = [
       },
       
     ],
-    image: project3,
+    image: artzia,
     source_code_link: "https://artziaclone.netlify.app/",
   },
   {
@@ -351,7 +383,7 @@ const projects = [
     
     ],
     image: usability,
-    source_code_link: "",
+    source_code_link: "https://usability-hub-clones.netlify.app/",
   },
   {
     name: "Maaterial Dashboard",
@@ -389,7 +421,7 @@ const projects = [
       },
       
     ],
-    image: education,
+    image: iedu,
     source_code_link: "https://iedu-clone.netlify.app/",
   },
 ];
